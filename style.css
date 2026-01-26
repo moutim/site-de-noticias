@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #212121;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.cor-verde {
+  color: #09FF00;
+}
+
+.cor-azul {
+  color: #0073FF;
+}
+
+.cor-vermelha {
+  color: #FF0000;
+}
+
+.cor-laranja {
+  color: #FF5100;
+}
+
+#botao-saiba-mais {
+  background-color: #FF5100;
+  color: white;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #0073FF;
+}
