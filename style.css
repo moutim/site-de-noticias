@@ -56,6 +56,21 @@ header nav a:hover {
   gap: 30px;
 }
 
+main {
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+}
+
+#primeira-secao-noticias {
+  display: flex;
+}
+
+#segunda-secao-noticias {
+  display: flex;
+}
+
 .cor-verde {
   color: #09FF00;
 }
