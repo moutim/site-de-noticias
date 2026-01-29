@@ -6,6 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Estilos para o Header */
+
 header {
   background-color: #212121;
   color: white;
@@ -56,6 +58,8 @@ header nav a:hover {
   gap: 30px;
 }
 
+/* Fim dos estilos para o header */
+
 main {
   padding-top: 30px;
   padding-left: 80px;
@@ -96,6 +100,75 @@ main {
   padding-top: 6px;
   padding-bottom: 6px;
   border-radius: 5px;
+}
+
+.noticia-principal h2 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 600;
+}
+
+.noticia-principal ul {
+  padding-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.noticia-principal ul li {
+  font-size: 15px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+.noticia-principal ul li::marker {
+  color: #09FF00;
+}
+
+main section:first-child {
+  width: 60%;
+  padding-right: 50px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main section:nth-child(2) {
+  width: 20%;
+  padding: 0 50px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main section:nth-child(3) {
+  width: 20%;
+  padding: 0 50px;
+}
+
+.noticia-grupo-1 {
+  width: 32%;
+}
+
+.noticia-grupo-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.noticia-grupo-1 h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+.noticia-grupo-1 ul {
+  padding-left: 20px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.noticia-grupo-1 ul li::marker {
+  color: #09FF00;
+}
+
+#primeira-secao-noticias {
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
