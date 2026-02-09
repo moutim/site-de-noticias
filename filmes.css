@@ -1,0 +1,11 @@
+header nav a:first-child {
+  color: white;
+}
+
+header nav a:nth-child(2) {
+  color: #09FF00;
+}
+
+header nav a:hover {
+  color: #09FF00;
+}
