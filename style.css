@@ -8,7 +8,7 @@
 
 /* Estilos para o Header */
 header {
-  background-color: #212121;
+  background-color: #ff82cf;
   color: white;
   display: flex;
   height: 100px;
@@ -45,11 +45,11 @@ header nav a {
 }
 
 header nav a:first-child {
-  color: #09FF00;
+  color: rgb(125, 255, 120);
 }
 
 header nav a:hover {
-  color: #09FF00;
+  color: #49dbff;
 }
 
 .icones-header {
@@ -70,21 +70,21 @@ main {
 }
 
 .cor-azul {
-  color: #0073FF;
+  color: #7ab6ff;
 }
 
 .cor-vermelha {
-  color: #FF0000;
+  color: #ff8282;
 }
 
 .cor-laranja {
-  color: #FF5100;
+  color: #ff8349;
 }
 
 #botao-saiba-mais {
   font-size: 13px;
   white-space: nowrap;
-  background-color: #FF5100;
+  background-color: #f07cff;
   color: white;
   border: none;
   padding-left: 40px;
